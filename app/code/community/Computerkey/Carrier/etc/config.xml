@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Computerkey_Carrier>
+            <module>0.0.1</module>
+        </Computerkey_Carrier>
+    </modules>
+    <global>
+        <models>
+            <computerkey_carrier>
+                <class>Computerkey_Carrier_Model</class>
+            </computerkey_carrier>
+        </models>
+    </global>
+    <!-- Default configuration -->
+    <default>
+        <carriers>
+            <computerkey_carrier>
+                <active>1</active>
+                <model>computerkey_carrier/carrier</model>
+                <title>ComputerKey Custom Shipping</title>
+                <sort_order>10</sort_order>
+                <sallowspecific>0</sallowspecific>
+            </computerkey_carrier>
+        </carriers>
+    </default>
+</config>
